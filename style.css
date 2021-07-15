@@ -2,55 +2,19 @@
 	clear: both;
 }
 
-body {
-	background-color: #f3f3f3;
-	font-family: Helvetica, sans-serif;
-	text-align: justify;
-	margin-left: 200px;
-	margin-right: 200px;
+/* CABECALHO */
+
+.sectionTitle {
+	color: #cf8a05;
+	float: left;
+	width: 25%;
+	font-style: italic;
+	font-family: 'Lato', sans-serif;
 }
 
-img {
-	border-radius: 50%;
-	width: 100px;
-	margin-top: 36px;
-}
-
-article {
-	line-height: 1em;
-
-}
-
-.sectionSkills{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-}
-
-ul {
-	list-style: none;
-}
-.keySkills1 {
-	display: flex;
-	flex-direction:column;
-	margin-bottom: 35px;
-}
-
-.keySkills2 {
-	margin-left: 200px;
-	margin-top: -54px;
-}
-
-.keySkills3 {
-	margin-left: 220px;
-	margin-top: -54px;
-}
-
-#subdetails {
-	margin-top: 
-	color:#181818;
-	opacity: 65%;
-
+.sectionContent {
+	float: right;
+	width: 72.5%;	
 }
 
 #hrcolor {
@@ -73,8 +37,75 @@ ul {
 	margin-top: 36px;
 }
 
+
+
+/* GERAL */
+
+head { 
+	border: solid transparent 2px;
+}
+
+body {
+	background-color: #f3f3f3;
+	font-family: Helvetica, sans-serif;
+	margin-left: 190px;
+	margin-right: 190px;
+}
+
+section {
+	border: solid transparent 1px;
+}
+img {
+	border-radius: 50%;
+	width: 100px;
+	margin-top: 36px;
+}
+
+article {
+	line-height: 1em;
+
+}
+
+
+
+
+/* SECTIONS */
+.sectionSkills{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+ul {
+	list-style: none;
+}
+.keySkills1 {
+	display: flex;
+	flex-direction:column;
+	margin-bottom: 35px;
+}
+
+.keySkills2 {
+	margin-left: 120px;
+	margin-top: -54px;
+}
+
+.keySkills3 {
+	margin-left: 100px;
+	margin-top: -54px;
+}
+
+#subdetails {
+	margin-top: 
+	color:#181818;
+	opacity: 65%;
+
+}
+
+
 hr {
-	color: #dedede.
+	color: #dedede;
+	opacity: 80%;
 }
 #contactDetails {
 	float: right;
@@ -83,15 +114,15 @@ hr {
 	margin-top:40px;
 }
 
-.sectionTitle {
-	color: #cf8a05;
-	float: left;
-	width: 25%;
-	font-style: italic;
-	font-family: 'Lato', sans-serif;
+#mainArea {
+	border-top: solid 2px #cf8a05;
+	margin-top: 20px;
 }
 
-.sectionContent {
-	float: right;
-	width: 72.5%;
+.mainDetails h1, h2 {
+	color: #444444;
+}
+
+.subDetails {
+	color: #181818;
 }
